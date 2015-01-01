@@ -1,0 +1,58 @@
+blocks_needed: 100
+tokens_awarded: 1
+
+# For enchants, if set to true, then they will be available. Set to false to not allow them.
+# --------------------------------------------------------
+# For token_factor, set how much higher it goes each rank.
+# By default, level 1 would be 10, level 2 would be 15, etc.
+# For level_increase, set how much higher the enchantment level goes each time. Protection 1, Protection 2, etc.
+upgrades:
+    armor:
+        enchants:
+            PROTECTION_ENVIRONMENTAL:
+                token_start: 10
+                token_factor: 5
+                level_increase: 1
+            THORNS:
+                token_start: 10
+                token_factor: 5
+                level_increase: 1
+            DURABILITY:
+                token_start: 10
+                token_factor: 5
+                level_increase: 1
+    pick:
+        enchants:
+            DIG_SPEED:
+                token_start: 10
+                token_factor: 5
+                level_increase: 1
+            LOOT_BONUS_BLOCKS:
+                token_start: 10
+                token_factor: 5
+                level_increase: 1
+            DURABILITY:
+                token_start: 10
+                token_factor: 5
+                level_increase: 1
+    sword:
+        enchants:
+            KNOCKBACK:
+                token_start: 10
+                token_factor: 5
+                level_increase: 1
+            DAMAGE_ALL:
+                token_start: 10
+                token_factor: 5
+                level_increase: 1
+            DURABILITY:
+                token_start: 10
+                token_factor: 5
+                level_increase: 1
+
+players:
+    thecreator153:
+        blocks: 10
+        pick_tokens: 10
+        armor_tokens: 10
+        sword_tokens: 10

@@ -1,0 +1,14 @@
+name: ERTools
+version: 1.0
+main: me.javaftw.ertools.ERTools
+
+commands:
+    blocks:
+        usage: /advert <message>
+        description: Advert
+    tokens:
+        usage: /advert <message>
+        description: Advert
+    upgrade:
+        usage: /advert <message>
+        description: Advert
